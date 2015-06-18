@@ -1,0 +1,12 @@
+class JavaLiterals
+{
+	public static void main(String args[])
+		{
+			System.out.println("\n\"Java Development Kit\"");
+			System.out.println("\n\tJava Development Kit");
+			System.out.println("\n\t\bJava Development Kit");
+			System.out.println("\n\'Java Development Kit\'");
+			System.out.println("\nJava Development Kit");
+
+		}
+}
