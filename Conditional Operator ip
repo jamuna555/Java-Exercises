@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class CondOp1
+{
+			 public static void main(String args[])		
+			{
+			Scanner op =new Scanner(System.in);
+			
+			System.out.println("Enter the value of a :");
+			int a=op.nextInt();
+			
+			System.out.println("Enter the value of b :");
+			int b=op.nextInt();
+
+				boolean c= a>b ? true:false;
+				System.out.println("\"a is greater than b\" = "+c);
+
+				boolean d=a!=b ? true:false;
+				System.out.println("a is not equal to b = "+d);
+
+			}
+
+}
