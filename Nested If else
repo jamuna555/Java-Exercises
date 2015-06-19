@@ -1,0 +1,33 @@
+class NestedIf
+{
+	public static void main(String args[])
+	{
+	int A=100;
+	int B=200;
+	int C=300;
+	
+		if (A>B)
+		{
+			if (A>C)
+				{
+					System.out.println("A is greater");
+				}
+			else 
+				{
+				    System.out.println("C is greater ");
+				}
+		}		
+		else 
+		{
+		    if (B>C)
+				{
+					System.out.println("B is greater ");
+				}
+			else
+				{
+					System.out.println("C is greater ");
+				}
+		}
+	}
+}
+	
