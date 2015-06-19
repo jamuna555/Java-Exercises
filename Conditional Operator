@@ -1,0 +1,19 @@
+/* Conditional Operator
+
+syntax : variable = (expression) ? value if true : value if false*/
+
+class CondOp
+{
+			 public static void main(String args[])		
+			{
+			 int a = 52;
+			 int b =33;
+	  		int c= a>b ? 52:33;
+				System.out.println("The Greater value is = "+c);
+
+				boolean d=a!=b ? true:false;
+				System.out.println("a is not equal to b = "+d);
+
+			}
+
+}
