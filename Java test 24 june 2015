@@ -1,0 +1,183 @@
+Core Java Test Questions
+                                        
+Please Answer the below questions briefly:
+1.	What is the most important feature of java?
+most important feature of java:
+1.Write Once Run Anywhere.
+2.It is purely an Object oriented language.
+3.Everything is considered as an Object.
+4.It have pre defined classes and Functionalities.
+5.Multithreading
+6.Exception Handling.
+7.It has  platform independent byte code to run on any JVM installed machine.
+8.Simple
+2.	What do you mean by platform independent?
+Java is platform independent because when a java program is complied it is converted into platform independent byte code , that is interprted by JVM and converts to the 
+3.	What is the difference between JVM,JDK and JRE?
+JDK : Java development kit it physically exits, which contains JVM and developments tools and Api.
+JVM: Java is an Acronym for Java virtual Machine. It is a abstract machine which converts the machine code into Run time environment in the platform which the JVM is installed.it helps to execute byte file into class file.
+JRE: JRE stands  for the Java run time environment  that run application on any platform or os 
+
+4.	What is the concept called Pointers? And does java supports Pointer?
+Pointers concepts are used in c which handles the memory  and interact with the machine very powerfully.  But  Java does not support pointers concept.
+5.	What is the base class of all the classes?
+Object is the base class of all the classes.
+6.	What do you mean by local variables?
+1.local variables are declared inside the method, constructors or blocks.
+2.local variables cannot have default value, it should be initialized.
+3.local variables cannot accessed by modifiers.
+4.local variables cannot be static.
+5.Local variables are destroyed when the method, constructors or blocks are exited.
+7.	What do you mean by Class Variables?
+Class variables are called as static variables declared inside the class with the static keyword.
+
+8.	Can you explain: public static void main(String args[])
+Public  - keyword to access all over the world.
+Static- keyword
+Void – main () method does not return any value.
+(String args)- considered everything as string 
+9.	Can main method to be overloaded?
+
+10.	Can a Class declared as protected?
+Yes class can be declared as protected in  the same class, other class other package  or sub class  other package.
+
+11.	I don’t want my class to be inherited by other classes. What should I do?
+Class should be predefined by Final keyword. So it cannot be extended or subclassed or inherited.
+12.	What is the purpose of declaring variable as final?’
+
+If the variable is declared as final .The value cannot be change.It can be a constant.
+ 	
+13.	What is the impact of declaring a method as final?
+If the method is declared as final the mathode cannot be over rided by the subclasses.
+14.	What is an abstract class and what is the purpose?
+If abstract keyword is predefined in class it is called abstract class.
+No implementation. 
+If any of the method is abstract then we should declare the class as abstract.
+It should be extended in future or by some one 
+A obj1 = new B();
+The purpose  of abstract is to hide the internal methods of the system 
+Eg.phone call. We know how to make a call in mobile but we don’t know the internal system how the   mobile makes a call.
+15.	Can a abstract class defines as final?
+No, final and abstract class cannot be together. 
+Because Abstract should  be extended by some one . But final cannot extended or subclassed.
+16.	Can you create object for abstract class
+        No object cannot be created for same class. 
+It can be created as A obj1 = new B();
+17.	What is the use of instanceof operator?
+The instance of the operator is used to check whether the object belongs to the instance of the class or variable.
+18.	What is an abstract method?
+The method predefined by abstract keyword.
+The abstract method is simple a skeleton without any implementation inside the method.
+It should be implemented in future.
+19.	What are the different types of if statements available?
+1.if ()….
+2. else if()…..
+3.else…
+4. nested if else….
+20.	Please explain about all access modifiers in java?
+Access 
+modifiers
+	
+Same class	Other class
+Same package	Other class
+Other package	Subclass
+Other package
+Default 	yes	yes	no	no
+Public
+	yes	yes	yes	yes
+private	yes	no	no	no
+protected	yes	yes	yes	no
+
+Please Write Programs for below scenario:
+1.Getting three inputs from the user and displaying which one is greater one.
+import.java.util.io;
+class  GreaterOne
+{
+Scanner scan = new Scanner(System.in);
+System.out.println(“Enter the value for a :”);
+int a = scan.nextInt();
+System.out.println(“Enter the value for b :”);
+int b = scan.nextInt();
+System.out.println(“Enter the value for c :”);
+int c = scan.nextInt();
+     
+
+
+   if (a>b)
+{  
+         if (a>c)
+                {
+                      System.out.println(“the greater value is ”,+a);
+                  }
+         else
+                 {
+                        System.out.println(“the greater value is ”,+c);
+                   }
+}
+else  	{
+	              if (b>c)
+                                     {
+                                         System.out.println(“the greater value is ”,+b);
+                                     }
+		else
+		      { 
+                             System.out.println(“The greater value is :”+c)
+                                    }
+    }
+
+                           public static void main(String args[])
+}
+
+2.Student Marks grade system.
+class Grade
+{ 
+                     public static void main(String args[])
+{
+
+          if (A>=90)
+           {
+	System.out.println(“Grade is : O”);
+           }
+         else if (A>=80)
+         {
+	System.out.println(“Grade is : A+”);
+           }
+         else if (A>=70)
+        {
+	System.out.println(“Grade is : A”);
+         }
+         else if (A>=60)
+       {
+	System.out.println(“Grade is : B”);
+        }
+else if (A>=40)
+     	{
+	System.out.println(“Grade is : C”);
+              }
+else 
+          {	
+                System.out.println(“You are fail”);
+           }
+     }
+}
+3.sample program for abstract class and method concept?
+class Brids
+{
+abstract void sound()
+     {
+     }
+void name()
+      {
+      	System.out.println(“”);
+      }
+}
+public static void main(String args[])
+Birds ob1 = new music();
+obj1.name();
+
+4.Sample program for swapping two variables without using third variable?
+
+All the Best!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
