@@ -1,0 +1,22 @@
+class Swapping
+{
+	public static void main(String args[])
+	{
+		int a = 40;
+		int b = 20;
+		
+		
+		System.out.println("\nThe Value before swapping");
+		System.out.println("\nThe value of a is :"+a);
+		System.out.println("The value of b is :"+b);
+		
+		
+		a-=b;
+		b+=a;
+		
+		System.out.println("\nThe Value after swapping");
+		System.out.println("\nThe value of a is :"+a);
+		System.out.println("The value of b is :"+b);
+	
+	}
+}
