@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class BoosterPack
+{
+		public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the booster pack to activate : ");
+		int bp = scan.nextInt();
+		
+		switch(bp)
+		{
+		case 47 : 
+				System.out.println("\nsms booster is activated ");
+		        break;
+		case 56 :
+				System.out.println("\nRoaming Pack is activated");
+				break;
+		case 77 :
+				System.out.println(" \nData card Packis activated");
+				break;
+		case 99 :
+				System.out.println("\n Night Pack is activated ");
+				break;
+		default :
+		        System.out.println("\nPack not Valid \n\n\bPlease Enter the correct pack");
+		}
+		System.out.println(" \n\"For many Special Offers download Airtel App\"" );
+			
+	}
+}
