@@ -1,0 +1,42 @@
+// Switch Statements
+
+import java.util.Scanner;
+
+public class AirtCustCare
+{
+	public static void main(String[] args)
+	{  Scanner Scan = new Scanner(System.in);
+   
+   System.out.println("Enter Your Choice :\n ");
+   int custcare = Scan.nextInt();
+   
+   		switch(custcare)
+   		{
+   		case 1:
+   		   System.out.println("MY Number");
+   		   break;
+   		case 2:
+   		   System.out.println("Special Offer ");
+   		   break;
+   		case 3:
+   		   System.out.println("Recharge");
+   		   break;
+   		case 4:
+   		   System.out.println("Balance ");
+   		   break;
+   		case 5:
+   		   System.out.println(" Data Services ");
+   		   break;
+   		case 6:
+   		   System.out.println(" 1 to 1 Customer care Executive ");
+   		   break;
+   	   default :
+   		   System.out.println("Application is Invalid ");
+   		     			
+   		}
+   
+   	   System.out.println("You have Entered the Choice : " +custcare);
+
+	}
+	
+}
