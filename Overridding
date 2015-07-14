@@ -1,0 +1,28 @@
+class Mobile
+{
+   public void call()
+     {
+	   System.out.println("we can make voice calls");
+	 }
+}
+
+class Anroid
+{
+ public void call()
+	{
+		System.out.println("we can make voice and video calls");
+	}
+}
+
+
+public class TestAnroid 
+{
+	public static void main(String args[])
+	{
+		Mobile m = new Mobile();
+		Anroid a = new Anroid();
+		
+		m.call();
+		a.call();
+	}
+}
